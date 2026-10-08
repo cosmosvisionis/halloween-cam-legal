@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms of Use (EULA)
+---
+
 # End User License Agreement (Terms of Use) — Halloween Costume AI Cam
 
 **Effective date:** October 12, 2026
@@ -16,16 +21,13 @@ You may not: copy, modify, or make derivative works of the App; reverse engineer
 We keep all rights not expressly given to you. The App is licensed, not sold.
 
 ## 2. How the App works
-The App uses a third-party AI service (fal.ai) to transform a photo you provide into a Halloween costume look. Your use of photos is also covered by our Privacy Policy (the hosted URL you publish for this App). Before your first upload, the App asks you to agree to send your photo to fal.ai for processing. Photos and Generated Images at fal.ai expire and are deleted automatically within 24 hours.
+The App uses a third-party AI service (fal.ai) to transform a photo you provide into a Halloween costume look. Your use of photos is also covered by our Privacy Policy: https://cosmosvisionis.github.io/halloween-cam-legal/privacy-policy Before your first upload, the App asks you to agree to send your photo to fal.ai for processing. We ask fal.ai not to store your photo or the Generated Image, and our server does not store either one.
 
-## 3. Credits and purchases
-- Your first costume reveal is free. After that, each generation uses one credit.
-- Credits are sold as **consumable** In-App Purchases (packs of 10, 30, or 100 generations) through Apple. There is no subscription.
+## 3. Credits
+- Your first costume reveal is free and carries a watermark. After that, each generation uses one credit.
 - Credits have no cash value. They cannot be transferred, exchanged, or redeemed for money, and they can only be used in the App.
-- Credits are stored on your device. Because there are no accounts, **credits may not be restorable if you delete the App, reset your device, or change devices.**
-- **All purchases are final and non-refundable, except as required by applicable law or Apple's policies.** All refund requests are handled by Apple. You can request one at https://reportaproblem.apple.com.
+- Credits do not expire. Your balance is kept on our server against a random identifier created when you install the App. Because there are no accounts, **credits may not be restorable if you delete the App, reset your device, or change devices.**
 - If a generation clearly fails because of a technical error on our side, contact ege.bakici35@gmail.com and we will try to make it right. For example, we may restore the credit where we can.
-- Prices are shown in the App Store and may change.
 
 ## 4. Your photos and content
 - **You keep ownership** of the photos you upload ("Your Content").
@@ -52,13 +54,13 @@ You agree **not** to use the App to:
 We may refuse or block requests that we believe break these rules.
 
 ## 7. Third-party services
-The App relies on third-party services, including Apple (payments) and fal.ai (AI processing). Their terms and policies apply to their services. We are not responsible for third-party services, and they may change or become unavailable.
+The App relies on third-party services, including Apple (App Store) and fal.ai (AI processing). Their terms and policies apply to their services. We are not responsible for third-party services, and they may change or become unavailable.
 
 ## 8. Updates and availability
 We may update, change, suspend, or stop the App, or any feature or costume style, at any time. Some features may need an internet connection.
 
 ## 9. Termination
-This Agreement stays in effect until it ends. Your rights under it end automatically if you break it. You can end it at any time by deleting the App. When it ends, you must stop using the App. Sections 3 (non-refund terms), 4–7, and 10–15 survive termination.
+This Agreement stays in effect until it ends. Your rights under it end automatically if you break it. You can end it at any time by deleting the App. When it ends, you must stop using the App. Sections 3, 4–7, and 10–15 survive termination.
 
 ## 10. Disclaimer of warranties
 TO THE MAXIMUM EXTENT ALLOWED BY LAW, THE APP AND ALL OUTPUT ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. THIS INCLUDES WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT. WE DO NOT PROMISE THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR SECURE.
