@@ -5,8 +5,8 @@ title: Privacy Policy
 
 # Privacy Policy — Halloween Costume AI Cam
 
-**Effective date:** October 12, 2026  
-**Last updated:** October 8, 2026
+**Effective date:** October 9, 2026  
+**Last updated:** October 9, 2026
 **Developer:** Egehan Bakıcı ("we," "us," "our")
 **Contact:** ege.bakici35@gmail.com
 
@@ -17,7 +17,8 @@ This Privacy Policy explains what information Halloween Costume AI Cam (the "App
 - You choose a selfie and a look. Our server sends the photo and the look you chose to our AI processing provider, **fal.ai**, whose FLUX Kontext model turns it into a Halloween costume image (skeleton, creepy clown, or pumpkin head).
 - We do **not** require an account, and we do not ask for your name, email, or phone number to use the App.
 - We do **not** sell your personal information, and we do not use your photos for advertising.
-- We do **not** show ads, and we do **not** use third-party analytics or tracking. We only use Apple's built-in crash reporting (App Store Connect).
+- We do **not** show ads, and we do **not** track you. Apart from our purchase processor, RevenueCat, the App contains no analytics or tracking tools. The only analytics are the purchase statistics (such as purchase counts and revenue) that RevenueCat derives from purchase records (see 3.3), and our server's own daily totals (for example how many looks were made each day), which contain no identifiers. For crashes we only use Apple's built-in crash reporting (App Store Connect).
+- Apple handles all payments; we never see or store your card details. Purchases are confirmed through our purchase-processing provider, RevenueCat.
 - Before your first photo is uploaded, the App shows a dedicated screen explaining this and asks you to tap **Agree**. You can withdraw that consent at any time in the App's Settings.
 - We ask fal.ai not to store your photo or the Generated Image. Our server passes your photo to fal.ai and the Generated Image back to you without storing either one.
 - The App is rated **13+**.
@@ -42,6 +43,8 @@ The costume images the AI makes from your photo ("Generated Images") are sent ba
 ### 2.3 Install identifier and credits
 To keep track of your free first reveal and your credit balance, our server stores them against a random identifier created when you install the App, not linked to your name, Apple ID or any account.
 
+When you buy a credit pack, Apple processes the payment and we never receive your name, payment card or billing address. RevenueCat (RevenueCat, Inc.) receives the purchase from the App, together with the random install identifier, and verifies it with Apple. Our server then reads that purchase from RevenueCat and adds your credits. For each purchase we store, against the random install identifier: RevenueCat's transaction ID, the product, the number of credits, whether it was a test purchase, and the purchase time.
+
 ### 2.4 Crash reports
 If the App crashes, Apple's built-in crash reporting (App Store Connect) may collect technical details such as device model, iOS version, App version, and what the App was doing when it crashed. We use this only to find and fix bugs. Crash reports do not include your photos, and we do not use them to identify you or track you across other apps or websites.
 
@@ -63,18 +66,22 @@ The App asks for your permission on a dedicated consent screen before the first 
 ### 3.2 Cloudflare (hosting provider)
 Our server runs on **Cloudflare** (Cloudflare, Inc.), which hosts it and its database. Your photo passes through this server on its way to fal.ai, and the Generated Image on its way back to you; neither is stored. Cloudflare's privacy policy: https://www.cloudflare.com/privacypolicy/
 
-### 3.3 Apple
-Apple distributes the App and may give us crash reports that you allowed under your device's "Share with App Developers" setting, via Apple's built-in crash reporting (App Store Connect).
+### 3.3 RevenueCat (purchase processing)
+We use RevenueCat, Inc. to verify and record In-App Purchases. RevenueCat receives the random install identifier, the App Store purchase details (product, price, currency, transaction IDs and dates) and basic technical data such as your IP address, device model, and iOS and App versions. RevenueCat also derives revenue analytics (for example purchase counts and revenue charts) from these purchase records, which we use to understand sales of credit packs. These analytics are not used for advertising or to track you across other apps or websites. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
 
-### 3.4 Legal reasons
+### 3.4 Apple
+Apple processes In-App Purchases and may give us crash reports that you allowed under your device's "Share with App Developers" setting, via Apple's built-in crash reporting (App Store Connect).
+
+### 3.5 Legal reasons
 We may share information if the law requires it, for example to respond to a valid legal request, or to protect the rights, safety, or property of users, the public, or us.
 
-### 3.5 No sale or "sharing" of personal information
+### 3.6 No sale or "sharing" of personal information
 We do **not** sell your personal information. We do **not** "share" it for cross-context behavioral advertising, as those terms are defined under California law. We do not use your data to track you.
 
 ## 4. How long we keep information (retention and deletion)
 
 - **On our server:** Your photo and the Generated Image are never written to our storage; they only pass through while your request is being processed. Basic job records (no photos) are deleted within about an hour of the request (at most 65 minutes). Rate-limit records holding your IP address and the random install identifier are deleted within 2 days. Our hosting provider's request logs (URL, IP address, install-identifier header, never photos) are kept for up to 7 days. Our database provider's point-in-time backup can keep deleted records, such as job records (which contain no photos) and rate-limit records, for up to 30 days. We keep your credit balance and free-reveal status, linked to the random install identifier.
+- **Purchase records:** kept with your credit balance so your credits keep working. RevenueCat keeps its purchase records under its own policies.
 - **At fal.ai:** On every request we ask fal.ai not to store the photo or the Generated Image. fal.ai may keep limited technical records (for example request IDs and timestamps) under its own policies.
 - **On your device:** Your App settings, your consent choice, and any images you saved stay on your iPhone. Images you saved to your Photos library stay there until you delete them. Deleting the App removes the App's local data, except images you saved to Photos.
 - **Crash reports:** These are kept only as long as needed to fix problems, under Apple's App Store Connect crash reporting retention rules.
@@ -98,7 +105,7 @@ Depending on where you live, including California (CCPA/CPRA), the European Econ
 
 Because we have no accounts and never store your photos on our server, we usually hold very little or nothing that can be linked to you. To make a request, email ege.bakici35@gmail.com. We may need to ask you some questions to handle your request, and we will reply within the time the law requires (generally 30 days under GDPR and 45 days under CCPA).
 
-**Legal bases (EEA/UK users):** We process your photo based on your **explicit consent**, which you give before upload, and to **perform our contract** with you, which is to provide the costume images you asked for. We process crash reports based on our **legitimate interest** in keeping the App working. You may also complain to your local data protection authority.
+**Legal bases (EEA/UK users):** We process your photo based on your **explicit consent**, which you give before upload, and to **perform our contract** with you, which is to provide the costume images you asked for. We process purchase records because it is **necessary to perform our contract** with you, which is to provide the credits you bought. We process purchase statistics and crash reports based on our **legitimate interest** in understanding sales of credit packs and keeping the App working. You may also complain to your local data protection authority.
 
 **International transfers:** fal.ai, Cloudflare, and our other providers may process data in the United States or other countries. Where required, these transfers rely on appropriate safeguards such as Standard Contractual Clauses.
 
